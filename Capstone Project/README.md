@@ -20,10 +20,10 @@ Standard time series models can be used or non-parametric models like neural net
 4. Develop models with increasing complexity - i.e. don't start with neural nets etc
 5. Define your success criteria - i.e. when do you know you have a tradable signal - positive (buy)/negative (sell), both are signals
 
-Data fields:
-ReportDate: Weekly data aggregated and released every Wednesday	
-AssetClass: Industry/Sector/Asset Class	
-Flow: Amount of positive (inflow) or negative (outflow) in Millions of USD 	
-FlowPct: Flows as percent of assets at beginning of the week 	
-AssetsEnd: Assets at end of the week in Millions of USD	
-PortfolioChangePct: Percent change in overall portfolio during the week
+Data fields:  
+`ReportDate`: Weekly data aggregated and released every Wednesday  
+`AssetClass`: Industry/Sector/Asset Class	  
+`Flow`: Amount of positive (inflow) or negative (outflow) in Millions of USD 	  
+`FlowPct`: Flows as percent of assets at beginning of the week  
+`AssetsEnd`: Assets at end of the week in Millions of USD  
+`PortfolioChangePct`: Percent change in overall portfolio during the week
