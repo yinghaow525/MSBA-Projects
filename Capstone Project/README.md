@@ -3,7 +3,7 @@ Readme:
 This folder is used for Capstone project of Team A6, MSBA class of 2022.  
 The provider and ownership of all datasets is of Spinnaker Analytics. Spinnaker Analytics reserves all the right to the dataset usage, and our coding outputs.
 
-## Project Ojjective:
+## Project Objective:
 The objective of the exercise is to find a tradable signal in the dataset. 
 
 The dataset contains sectoral data for 3 separate types of investments made in the US  (no international funds are included) and represents 60-70% of activity in the overall asset classes for that week (not all investors report data at the same time). The weekly data spans 10 years from 2006 through end-Jan 2017. Not all sectors have data available for all the dates since new investment vehicles are introduced at various points in time. 
