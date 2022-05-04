@@ -1,5 +1,9 @@
 Readme:
+# NOTICE:
+This folder is used for Capstone project of Team A6, MSBA class of 2022.  
+The provider and ownership of all datasets is of Spinnaker Analytics. Spinnaker Analytics reserves all the right to the dataset usage, and our coding outputs.
 
+## Project Ojjective:
 The objective of the exercise is to find a tradable signal in the dataset. 
 
 The dataset contains sectoral data for 3 separate types of investments made in the US  (no international funds are included) and represents 60-70% of activity in the overall asset classes for that week (not all investors report data at the same time). The weekly data spans 10 years from 2006 through end-Jan 2017. Not all sectors have data available for all the dates since new investment vehicles are introduced at various points in time. 
@@ -10,7 +14,7 @@ The dataset contains sectoral data for 3 separate types of investments made in t
 
 This dataset can be used in isolation - i.e. no additional information is supplied to the models and the models only use the data in these sets to identify a signal. Alternatively, the dataset can be augmented by including information from sources like the stock market, macro indicators from sources like the Fed, Bureau of Labor Statistics, etc.
 
-Modeling Techniques:
+## Modeling Techniques:
 
 Standard time series models can be used or non-parametric models like neural networks can be deployed. Suggested course of actions is as follows:
 
@@ -20,7 +24,7 @@ Standard time series models can be used or non-parametric models like neural net
 4. Develop models with increasing complexity - i.e. don't start with neural nets etc
 5. Define your success criteria - i.e. when do you know you have a tradable signal - positive (buy)/negative (sell), both are signals
 
-Data fields:  
+## Data fields:  
 `ReportDate`: Weekly data aggregated and released every Wednesday  
 `AssetClass`: Industry/Sector/Asset Class	  
 `Flow`: Amount of positive (inflow) or negative (outflow) in Millions of USD 	  
